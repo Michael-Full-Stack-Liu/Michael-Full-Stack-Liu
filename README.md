@@ -1,8 +1,10 @@
 # Michael Liu
 
-I build production-minded AI and data systems that turn real-world data into automated decisions.
+Production-minded AI/Data Engineer building automated systems from real-world data to inference, monitoring, and action.
 
-My strongest work sits at the intersection of data ingestion, ML inference, backend automation, monitoring, and delivery. I care about systems that do more than run in a notebook: they collect data, make decisions, expose APIs, track failures, and operate with deployment/runtime boundaries.
+My strongest work sits at the intersection of data ingestion, ML serving, backend automation, scheduler-driven workflows, monitoring, and operational delivery. The projects below are built as running systems: they collect data, make decisions, expose APIs, track failures, and separate runtime roles for deployment.
+
+Open to AI Engineer, Data Engineer, Backend/Data Platform, MLOps, and Applied ML roles.
 
 ## Featured Systems
 
@@ -39,6 +41,7 @@ flowchart LR
 - Prediction stack: `LightGBM + CatBoost + XGBoost` blend with shared feature pipeline
 - Evaluation window: 49 cities, 365 days, 68,060 rows in hourly performance report
 - Operational modes: smoke, dry-run, and production live trading
+- Repository: private/local project; case study available on request
 
 **Tech**
 
@@ -87,31 +90,22 @@ Python, FastAPI, AutoGluon, DVC, MLflow, PostgreSQL, Docker Compose, Evidently, 
 
 Repository: [MyInvestGuide](https://github.com/Michael-Full-Stack-Liu/MyInvestGuide)
 
-## Engineering Strengths
+## Capability Map
 
-- End-to-end data ingestion and pipeline design
-- ML training/serving alignment
-- Backend APIs for model inference and operational health
-- Scheduler-driven automation and production runtime configuration
-- Drift monitoring, audit logs, smoke tests, and failure visibility
-- Trading and decision-system risk controls
-- Dockerized deployment with separate API, scheduler, training, and live worker roles
+| Area | Evidence |
+|---|---|
+| Data ingestion | Weather/METAR/TAF ingestion, congressional trade data pipeline |
+| ML serving | `snapshot_v3` inference, AutoGluon prediction API |
+| MLOps | DVC pipeline, MLflow tracking, model artifacts, training/serving alignment |
+| Backend systems | FastAPI services, health/readiness endpoints, PostgreSQL-backed logging |
+| Automation | APScheduler jobs, Dockerized scheduler workers, Telegram notifications |
+| Reliability | drift checks, smoke mode, dry-run mode, audit logs, settlement checks |
+| Risk systems | kill switch, drawdown checks, order validation, live/smoke separation |
 
-## What I Am Looking For
+## Current Focus
 
-Roles where I can build reliable AI/data systems around real-world data, model inference, automation, and operational feedback loops.
-
-Good fits include:
-
-- AI Engineer
-- Data Engineer
-- Backend Engineer, AI/Data Platform
-- MLOps Engineer
-- Applied ML Engineer
-
-## Contact
+Building reliable AI/data systems around real-world data, model inference, automation, and operational feedback loops.
 
 - GitHub: [Michael-Full-Stack-Liu](https://github.com/Michael-Full-Stack-Liu)
 - LinkedIn: [michael-liu-21918932a](https://www.linkedin.com/in/michael-liu-21918932a/)
 - Email: [liujianzhong8@hotmail.com](mailto:liujianzhong8@hotmail.com)
-
